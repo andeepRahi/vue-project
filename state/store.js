@@ -5,7 +5,7 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
     strict: true,
     state: {
-        title: "BEST PTE EXAM CENTRE",
+        title: "YOUR APP TITLE GOES HHERE",
         categoryDropdown: {
             'listening': "Listening",
             'writting': "Writting",
