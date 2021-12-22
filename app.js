@@ -19,7 +19,7 @@ Vue.component('notification-component', require('./components/notifications.vue'
 window.Swal = require('sweetalert2');
 window.FireEvent = Vue.prototype.$eventBus || new Vue
 window.Laravel = {
-    "baseUrl": "https:\/\/bestpte.test\/"
+    "baseUrl": "https:\/\/loccalhost\/"
 }
 const Toast = Swal.mixin({
     toast: true,
